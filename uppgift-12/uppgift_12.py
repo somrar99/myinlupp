@@ -9,4 +9,5 @@ def create_student_register(ls: list) -> dict:
     out_dict = {}
     for l in ls:
         out_dict[l[0]] = l[1]
+        print("*********")
     return out_dict
